@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Exo);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Exo', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    background-color: #000;
+}
+
+div.wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+
+div.wrapper h2, div.wrapper p {
+    text-align: center;
+}
+
+div.wrapper h2 {
+    font-size: 2.1em;
+    color: #f39c12;
+    padding: 5px 5px 0px 5px;
+}
+
+div.wrapper p {
+    padding: 0px 5px 10px 0px;
+}
+
+div.wrapper a#referenceLink {
+    color: #f39c12;
+}
+
+div.wrapper a#referenceLink:hover {
+    color: #1abc9c;
+}
+
+div.wrapper a#returnLink {
+    display: block;
+    text-align: center;
+    width: 100%;
+    border-top: 2px solid #f39c12;
+    border-bottom: 2px solid #f39c12;
+    padding: 5px;
+    font-size: 1.4em;
+    color: #fff;
+}
+
+div.wrapper a#returnLink:hover {
+    background-color: #f39c12;
+    color: #000;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+div.wrapper div.inputParams {
+    padding: 10px 0px;
+    display: flex;
+    width: 30%;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+div.inputParams > label {
+    padding: 6px;
+}
+
+div.inputParams > input {
+    width: 10%;
+    text-align: center;
+    font-size: 1.1em;
+    background-color: #f39c12;
+    border: 2px solid #fff;
+}
+
+div.inputParams div#submitAPI {
+    display: block;
+    width: 30%;
+    padding: 4px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #f39c12;
+}
+
+div.inputParams div#submitAPI:hover {
+    background-color: #1abc9c;
+    cursor: pointer;
+}
+
+div.pulledText {
+    border-top: 2px solid #f39c12;
+    padding: 10px 0px;
+}
+
+div.pulledText p {
+    text-align: left;
+}
+
+div#footer {
+    text-align: right;
+    padding: 10px;
+    border-top: 2px solid #f39c12;
+}
+
+@media screen and (max-width: 1300px) {
+    div.wrapper div.inputParams {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    div.wrapper div.inputParams {
+        width: 50%;
+    }
+
+    div.wrapper p {
+        padding: 10px;
+    }
+
+    div#footer {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    div.wrapper {
+        width: 100%;
+    }
+
+    div.wrapper div.inputParams {
+        width: 50%;
+    }
+
+    div.pulledText {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    div.wrapper div.inputParams {
+        width: 100%;
+    }
+
+    div.pulledText {
+        padding: 10px;
+    }
+}
