@@ -17,7 +17,7 @@ RUN npm run build
 #---------------------------------
 
 # Now build on top of the nginx image as source code is built
-FROM ${FROM_IMAGE}:${IMG_TYPE}
+FROM ${FROM_IMAGE}
 
 WORKDIR /var/www/apps/textgen
 
