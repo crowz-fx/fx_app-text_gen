@@ -1,0 +1,1 @@
+dockerBuildPipeline([name: "text-generator", from: "nginx:stable"])
