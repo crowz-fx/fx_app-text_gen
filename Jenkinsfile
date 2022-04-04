@@ -1,1 +1,1 @@
-dockerBuildPipeline([name: "text-generator", from: "nginx:stable"])
+dockerBuildPipeline([name: "text-generator", from: "nginx:stable", deployJob: "Docker-Deploy-Container"])
