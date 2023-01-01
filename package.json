@@ -2,7 +2,7 @@
   "name": "textgen",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/apps/textgen",
+  "homepage": "/textgen",
   "dependencies": {
     "axios": "^0.21.2",
     "react": "^15.6.1",

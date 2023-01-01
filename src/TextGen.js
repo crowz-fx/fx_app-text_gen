@@ -47,7 +47,7 @@ class TextGen extends Component {
             <div className="wrapper">
                 <h2>Text Generator</h2>
                 <p>This is a small react application to fetch and parse the JSON from the <a id="referenceLink" href="https://baconipsum.com/" target="_blank" rel="noopener noreferrer">Bacon Ipsum API</a>. </p>
-                <a id="returnLink" href="/portfolio/apps">&lt;-- return to app central</a>
+                <a id="returnLink" href="https://luicrowie.me/portfolio/apps">&lt;-- return to app central</a>
 
                 <div className="inputParams">
                     <label>Number of paragraphs:</label>
